@@ -2,7 +2,7 @@
 
 A real-time **Fruit Ninja** clone controlled entirely by **physical hand movements** using an **ESP32** and **MPU6050** motion sensor.
 
-Instead of swiping on a touchscreen, players swing the ESP32 in the air to slice fruits. The ESP32 hosts the game over Wi-Fi, allowing anyone connected to the same network to play directly from a web browser—no installation required.
+Instead of swiping on a touchscreen, players swing the ESP32 in the air to slice fruits. The ESP32 hosts the game over Wi-Fi, allowing anyone connected to the same network to play directly from a web browser, no installation required.
 
 ---
 
@@ -17,7 +17,6 @@ Instead of swiping on a touchscreen, players swing the ESP32 in the air to slice
 - 🎯 User-specific motion thresholds
 - 🍉 Classic Fruit Ninja gameplay
 - 💥 Responsive slicing effects and scoring
-- 📱 Mobile-friendly interface
 
 ---
 
@@ -57,16 +56,6 @@ Instead of swiping on a touchscreen, players swing the ESP32 in the air to slice
    - Move down
 8. Calibration automatically generates motion thresholds.
 9. Start slicing fruits!
-
----
-
-## 📂 Project Structure
-
-```
-.
-├── main.ino          # ESP32 firmware
-└── README.md
-```
 
 ---
 
